@@ -1,9 +1,5 @@
 package io.github.seebaware.chatapplication.model;
 
-public record ChatMessage(String content, String sender, MessageType messageType) {
+import io.github.seebaware.chatapplication.utils.MessageType;
 
-    public enum MessageType{
-        CHAT, LEAVE, JOIN
-    }
-
-}
+public record ChatMessage(String content, String sender, MessageType messageType) { }
