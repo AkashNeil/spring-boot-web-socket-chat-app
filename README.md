@@ -1,1 +1,1 @@
-# Chat application using Spring Boot + Web Socket
+# Chat application using Spring Boot (+ Web Socket)
